@@ -23,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     min-height: 100vh;
     font-family:GandhiSansRegular ;
+    color: #fff;
   }
   main {
     display: block;

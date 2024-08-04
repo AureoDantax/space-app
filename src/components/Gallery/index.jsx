@@ -8,11 +8,6 @@ const GalleryContainer = styled.div`
 
 const ContentSection = styled.section`
   flex-grow: 1;
-    img{
-
-      margin: 10px;
-    }
-
 `;
 
 const Gallery = () => {
@@ -20,11 +15,8 @@ const Gallery = () => {
     <>
       <Tags />
       <GalleryContainer>
-        <ContentSection>
+        <ContentSection>  
           <Title>Navegue pela galeria</Title>
-          <img src="https://via.placeholder.com/200" alt="Imagem de um gato" />
-          <img src="https://via.placeholder.com/200" alt="Imagem de um gato" />
-          <img src="https://via.placeholder.com/200" alt="Imagem de um gato" />
         </ContentSection>
         <PopularSection />
       </GalleryContainer>

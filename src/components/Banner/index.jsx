@@ -19,6 +19,7 @@ const BannerStyles = styled.figure`
   color: #d9d9d9;
 `;
 
+// eslint-disable-next-line react/prop-types
 const Banner = ({title,backgroundImage}) => {
   return (
     <BannerStyles $backgroundImage={backgroundImage}>

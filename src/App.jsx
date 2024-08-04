@@ -33,7 +33,7 @@ const ContentGallery = styled.div`
   flex-grow: 1;
 `;
 
-function App() {
+const App = () => {
   return (
     <GradientBackground>
       <GlobalStyles />
@@ -52,7 +52,6 @@ function App() {
       </AppContainer>
     </GradientBackground>
   );
-}
-
+};
 
 export default App;
